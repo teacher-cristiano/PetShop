@@ -1,3 +1,8 @@
+*{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
 header{
     background-color: #ddd;
     width: 100%;
@@ -47,9 +52,8 @@ nav ul li:first-child{
 nav ul li a{
     text-decoration: none;
     color:#333;
-    font-size: 18px;
+    font-size: 1.4rem;
     text-transform: uppercase;
-    font-family: sans-serif;
 }
 
 nav ul li a:hover{
@@ -92,9 +96,9 @@ nav ul li a:hover{
     color: #ffffff;
     margin: 0;
     text-align: center;
-    font-family: sans-serif;
     margin-top: -5px;
     padding: 5px 0;
+    font-size: 1.4rem;
 }
 
 .publicidade{
@@ -107,5 +111,84 @@ nav ul li a:hover{
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
-    font-family: sans-serif;
 }
+
+/* ###################Cliente############################# */
+
+.cliente{
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 0px;
+}
+
+.conteudo-cliente{
+    width: 70%;
+    height: auto;
+}
+
+.conteudo-cliente h1{
+    font-size: 1.4rem;
+}
+
+.conteudo-cliente p{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.foto-cachorro{
+    width: 30%;
+    height: auto;
+}
+
+.foto-cachorro img{
+    width: 100%;
+}
+
+/* ########################## ATENDIMENTO ################ */
+
+.atendimento{
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 0px;
+}
+
+.foto-atendimento, .atendimento-conteudo{
+    width: 50%;
+    height: auto;
+}
+
+.foto-atendimento img{
+    width: 100%;
+}
+
+.atendimento-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(191, 212, 3);
+}
+
+.atendimento h1{
+    font-size: 3rem;
+}
+
+.atendimento h2{
+    font-size: 2.5rem;
+}
+
+/* ########################## FALE CONOSCO ################ */
+.fale-conosco{
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+}
+
